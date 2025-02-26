@@ -21,11 +21,18 @@ cd stock-ms
 ## Structure du projet
 
 stock-ms/
+
 ├── docker-compose.yml        # Fichier de configuration Docker Compose pour déployer la stack ELK
+
 ├── logstash/
+
 │   ├── config/
+
 │   │   └── logstash.yml      # Configuration de Logstash
+
 │   └── pipeline/
+
 │       └── logstash.conf     # Pipeline Logstash pour l'ingestion des logs
+
 └── src/
     └── ...                   # Code source de l'application de gestion des stocks
