@@ -1,0 +1,19 @@
+<configuration>
+    <!-- Console Appender (Affiche les logs dans la console au format JSON) -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="net.logstash.logback.encoder.LogstashEncoder" />
+    </appender>
+
+    <!-- File Appender (Génère les logs JSON dans un fichier) -->
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>/var/log/stock-ms/application.log</file>
+        <encoder class="net.logstash.logback.encoder.LogstashEncoder" />
+    </appender>
+
+    <!-- Définir le niveau de logging -->
+    <root level="INFO">
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="FILE" />
+    </root>
+</configuration>
+ 
