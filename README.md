@@ -10,8 +10,6 @@ Mettre en place une stack ELK (Elasticsearch, Logstash, Kibana) pour la collecte
 - Logstash
 - Kibana
 
-## Architecture du projet
-
 ## Installation
 
 ### 1. Cloner le dépôt
