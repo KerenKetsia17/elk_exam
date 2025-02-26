@@ -1,4 +1,4 @@
-# Stock-MS
+# ELK Stock-MS
 
 ## Description
 Mettre en place une stack ELK (Elasticsearch, Logstash, Kibana) pour la collecte, l'analyse et la visualisation des logs générés par l'application.
