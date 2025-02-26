@@ -18,12 +18,6 @@ git clone https://gitlab.com/m2gl1/stock-ms.git
 cd stock-ms
 
 
-### 3. **Fichiers utilisés pour la mise en place de la stack ELK**
-
-Voici la structure du projet et les fichiers associés à la mise en place de la stack ELK.
-
----
-
 ## Structure du projet
 
 stock-ms/
